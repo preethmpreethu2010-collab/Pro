@@ -1,0 +1,254 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karnataka Specialities</title><style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #fff8ed;
+        color: #333;
+    }
+
+    header {
+        background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+        text-align: center;
+        padding: 30px;
+    }
+
+    header h1 {
+        color: #8b0000;
+        font-size: 35px;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    nav {
+        background: #8b0000;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: yellow;
+    }
+
+    .hero {
+        background: #ffe0b2;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+        color: #8b0000;
+        margin-bottom: 15px;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+
+    .container h2 {
+        text-align: center;
+        color: #8b0000;
+        margin-bottom: 25px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 3px 10px #ccc;
+        text-align: center;
+    }
+
+    .card img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .card h3 {
+        color: #b22222;
+        margin: 12px 0;
+    }
+
+    .card p {
+        line-height: 1.5;
+    }
+
+    footer {
+        background: #8b0000;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    @media(max-width: 600px) {
+        nav a {
+            display: inline-block;
+            margin: 8px;
+        }
+
+        header h1 {
+            font-size: 27px;
+        }
+    }
+</style>
+
+</head><body><header>
+    <h1>ಕರ್ನಾಟಕದ ವಿಶೇಷತೆಗಳು</h1>
+    <p>Welcome to Karnataka – One State, Many Wonders!</p>
+</header>
+
+<nav>
+    <a href="#food">Food</a>
+    <a href="#places">Tourism</a>
+    <a href="#culture">Culture</a>
+    <a href="#festivals">Festivals</a>
+</nav>
+
+<section class="hero">
+    <h2>Explore Beautiful Karnataka</h2>
+    <p>
+        Karnataka is famous for its rich culture,
+        delicious food, beautiful nature and history.
+    </p>
+</section>
+
+<section class="container" id="food">
+    <h2>🍛 Famous Foods</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=500"
+            alt="South Indian food">
+            <h3>Masala Dosa</h3>
+            <p>A popular South Indian dish with crispy dosa and potato filling.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500"
+            alt="Mysore Pak">
+            <h3>Mysore Pak</h3>
+            <p>A famous sweet made using gram flour, ghee and sugar.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=500"
+            alt="South Indian meal">
+            <h3>Ragi Mudde</h3>
+            <p>A traditional Karnataka food made from finger millet flour.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="container" id="places">
+    <h2>🏞️ Famous Tourist Places</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600112356915-089abb8fc71a?w=500"
+            alt="Mysore Palace">
+            <h3>Mysore Palace</h3>
+            <p>A beautiful historical palace in Mysuru.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=500"
+            alt="Hampi">
+            <h3>Hampi</h3>
+            <p>Famous for ancient temples and Vijayanagara architecture.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1590050752117-23a9d7fc1c0e?w=500"
+            alt="Jog Falls">
+            <h3>Jog Falls</h3>
+            <p>One of India's famous waterfalls located in Karnataka.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="container" id="culture">
+    <h2>🎭 Culture and Traditions</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Yakshagana</h3>
+            <p>A traditional dance-drama form popular in coastal Karnataka.</p>
+        </div>
+
+        <div class="card">
+            <h3>Kannada Language</h3>
+            <p>Kannada is the official language of Karnataka.</p>
+        </div>
+
+        <div class="card">
+            <h3>Mysore Silk</h3>
+            <p>Karnataka is famous for its beautiful Mysore silk sarees.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="container" id="festivals">
+    <h2>🎉 Famous Festivals</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Mysuru Dasara</h3>
+            <p>A grand celebration featuring cultural programmes and a famous procession.</p>
+        </div>
+
+        <div class="card">
+            <h3>Ugadi</h3>
+            <p>Kannada New Year celebrated with traditional food and rituals.</p>
+        </div>
+
+        <div class="card">
+            <h3>Makara Sankranti</h3>
+            <p>A harvest festival celebrated with traditional customs.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <h3>ನಮ್ಮ ಕರ್ನಾಟಕ – ಹೆಮ್ಮೆಯ ಕರ್ನಾಟಕ ❤️</h3>
+    <p>Designed using HTML and CSS</p>
+    <p>© 2026 Karnataka Specialities</p>
+</footer>
+
+</body>
+</html>
